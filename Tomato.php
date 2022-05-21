@@ -11,7 +11,7 @@ class Tomato extends AdditionDecorator
 
     public function getDescription(): string
     {
-        print "And this is cool too";
+        print "Anq is cool too from me to yo";
         return $this->pizza->getDescription() . ' , Tomato';
     }
 }
